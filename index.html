@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda Centro</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: #f2f4f8;
+            color: #1c2a48;
+            margin: 20px;
+        }
+
+        h1 {
+            background-color: #1c2a48;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        li a {
+            color: #c0392b;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #c0392b;
+            border-bottom: 2px solid #1c2a48;
+        }
+
+        .producto {
+            background-color: white;
+            border: 1px solid #c8cfdc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .producto img {
+            width: 150px;
+        }
+
+        .precio {
+            color: #c0392b;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+        }
+
+        footer {
+            text-align: center;
+            color: #6b7690;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Paty's boutique</h1>
+
+    <ul>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#tienda">La tienda</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+
+    <p>Ropa, tenis, bolsas y perfumes de marca en el centro de Zapotiltic.</p>
+
+    <h2 id="productos">Productos</h2>
+
+    <div class="producto">
+        <img src="img/foto1.jpeg" alt="Perfume Hugo Energise">
+        <h3>Perfume Hugo Energise</h3>
+        <p class="precio">$2,100</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/foto2.jpeg" alt="Playera Karl Lagerfeld">
+        <h3>Playera Karl Lagerfeld</h3>
+        <p class="precio">$4,200</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/foto3.jpeg" alt="Tenis Coach">
+        <h3>Tenis Coach</h3>
+        <p class="precio">$3,900</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/foto4.jpeg" alt="Tenis negros">
+        <h3>Tenis negros</h3>
+        <p class="precio">$4,000</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/foto5.jpeg" alt="Tenis Coach blancos">
+        <h3>Tenis Coach blancos</h3>
+        <p class="precio">$1,200</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/foto6.jpeg" alt="Bolsa Coach">
+        <h3>Bolsa Coach</h3>
+        <p class="precio">$1,500</p>
+    </div>
+
+    <h2 id="tienda">La tienda</h2>
+    <p>Tenemos ropa para dama y caballero, tenis, bolsas y perfumes. Ven a conocernos.</p>
+    <img src="img/lugar.jpeg" alt="Tienda por dentro" width="250">
+
+    <h2 id="ubicacion">Ubicación</h2>
+    <p>Leona Vicario #60, Colonia Centro, Zapotiltic, Jal.</p>
+    <iframe src="https://maps.google.com/maps?q=19.6236087,-103.4144917&z=17&output=embed" title="Mapa"></iframe>
+
+    <h2 id="contacto">Contacto</h2>
+    <p>Teléfono: <a href="tel:3412052528">341 205 2528</a></p>
+
+    <form>
+        <p>Nombre:<br><input type="text"></p>
+        <p>Correo:<br><input type="email"></p>
+        <p>
+            Producto que te interesa:<br>
+            <select>
+                <option>Perfume</option>
+                <option>Playera</option>
+                <option>Tenis</option>
+                <option>Bolsa</option>
+            </select>
+        </p>
+        <p>Mensaje:<br><textarea rows="4" cols="35"></textarea></p>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <footer>
+        <p>Moda Centro 2026</p>
+    </footer>
+
+</body>
+</html>
